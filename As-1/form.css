@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#form1{
+    max-width: 450px;
+	background: #FAFAFA;
+	padding: 3rem;
+	margin: 5rem auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+
+.header{
+
+    padding: 1rem;
+    color: rgb(20, 1, 105);
+    position: fixed;
+    top: 0;
+    height: 2rem;
+    margin: auto;
+    width: 100%;
+    background-color: #92a8d1;
+
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+
+.un_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+}
+
+li{
+    display: block;
+	margin-bottom: 12px;
+	min-height: 40px;
+    display: flex;
+}
+
+input, textarea{
+    box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+
+}
+
+.left{
+    width: 50%;
+    margin: 2px;
+    padding: 2px;
+    justify-content: left;
+}
+
+.right{
+    width:50%;
+    margin: 2px;
+    padding: 2px; 
+}
+
+.btn{
+
+  background-color: #00518b;
+  border-radius: 100px;
+  box-shadow: rgba(97, 158, 255, 0.459) 0 -25px 18px -14px inset,rgba(46, 164, 200, 0.15) 0 1px 2px,rgba(46, 187, 212, 0.15) 0 2px 4px,rgba(44, 149, 187, 0.15) 0 4px 8px,rgba(44, 180, 187, 0.15) 0 8px 16px,rgba(44, 180, 187, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+    box-shadow: rgba(66, 159, 240, 0.35) 0 -25px 18px -14px inset,rgba(44, 165, 187, 0.25) 0 1px 2px,rgba(44, 187, 182, 0.25) 0 2px 4px,rgba(44, 180, 187, 0.25) 0 4px 8px,rgba(44, 187, 182, 0.25) 0 8px 16px,rgba(44, 187, 187, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+.table1{
+    border: 1px solid black;
+    margin: 0.25rem auto 5rem auto;
+    padding: 0.5rem;
+
+}
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {
+    background-color: rgb(154, 225, 251);
+}
+
+
+
+.static{
+    position: static;
+    border: 3px solid black;
+}
+
+.relative{
+    position:relative;
+    left: 30px;
+    border: 3px solid black;
+}
+
+.absolute{
+    position: absolute;
+    top: 60rem;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+img{
+   height: 200px;
+   width:200px;
+   object-fit: contain;
+   
+}
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.dis1{
+ display: none;
+}
+
+.dis2{
+display: inline;
+}
+
+.dis3{
+display: block;
+}
+
+.vis{
+visibility: visible;
+}
+
+.hid{
+visibility: hidden;
+}
