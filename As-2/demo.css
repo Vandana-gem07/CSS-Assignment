@@ -1,0 +1,65 @@
+body{
+    font-size: 10px;
+}
+
+.rem{
+    font-size: 4rem;
+}
+
+.em{
+    font-size: 4em;
+}
+
+.px{
+    font-size: 30px;
+}
+
+.vh{
+    margin: 4vh;
+    font-size: 1rem;
+}
+
+.vw{
+    margin: 4vw;
+    font-size: 1em;
+}
+
+.class1, .class2, .class3{
+
+    color: white;
+    background-color: rgb(20, 0, 94);
+}
+
+.child h3{
+    background-color: rgb(64, 155, 224);
+}
+
+.adjacent + h3{
+background-color: rgb(64, 155, 224);
+}
+
+.general ~ h3{
+    background-color: rgb(64, 155, 224);
+}
+
+
+.box{
+    border-radius: 5px;
+    height: 40px;
+    margin: 50px auto;
+    width: 80px;
+    background-color: black;
+}
+
+.box1:hover {
+    background: rgb(64, 155, 224);
+    transform: scale(2);
+  }
+  
+  .box2:hover {
+    background: rgb(64, 155, 224);
+    transform: scale(2);
+    transition: all 0.5s;
+  }
+
+
